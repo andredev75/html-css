@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    margin: 0px;
+    background-color: rgb(241, 250, 215);
+}
+header
+{
+    background-image: linear-gradient(to bottom, #bff3bf, #003300, #00290e, #00240c, #02ee5149);
+    background-attachment: fixed;
+    height: 170px;
+    padding: 5px;
+    margin: 0px;
+}
+header > p
+{
+    text-align: center;
+    color: white;
+}
+nav
+{   
+    margin: 0px;
+    padding: 21px; 
+}
+
+nav#navfinal
+{
+    margin: 0px;
+    background-color: rgb(216, 255, 209);
+    
+}
+
+main
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #71687c;
+    height: auto;
+    width: 1100px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2831427a;
+    color: #ffffff;
+}
+h2
+{
+    font-family: "idroid";
+    text-align: left;
+    color: rgb(19, 88, 34);
+}
+h3
+{
+    font-family: "idroid";
+    text-align: left;
+    background-image:linear-gradient(to right, rgba(21, 255, 0, 0.568), rgba(4, 156, 4, 0.274), rgba(174, 255, 174, 0.123)) ;
+    color: rgb(19, 88, 34);
+}
+h4
+{
+    text-align: left;
+    margin: 0px 0px 0px 0px;  
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #006100;
+    color: white;
+}
+
+p
+{
+    
+    text-align: justify;
+    color: #000000;
+}
+
+a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+a#irina
+{
+    color: rgb(0, 56, 0);
+}
+a#android
+{
+    color: #00240c;
+    font-weight: bold;
+    
+}
+
+picture#bugdroid
+{
+    margin: 0 auto;
+}
+
+footer
+{
+    background-color: rgb(9, 73, 1);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px; 
+}
+footer > p
+{
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
