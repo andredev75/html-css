@@ -14,6 +14,7 @@
         {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th
         {
@@ -31,6 +32,23 @@
         {
             background-color: gray;
             color: white;
+        }
+        thead > tr > th
+        {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            
+        }
+        tbody > tr:nth-child(odd) /*odd = 2n-1*/
+        {
+            background-color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even) /*even = 2n*/
+        {
+            background-color: rgb(139, 139, 139);
+            text-decoration: underline;
         }
         td.num
         {
@@ -179,5 +197,9 @@
         </tfoot>
 
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque quis, amet iure, quo dignissimos cum eum blanditiis quasi sed nostrum officiis iusto ipsam magni? Et aliquid laborum reprehenderit eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed similique beatae quis, atque ducimus quos exercitationem quibusdam, alias ipsa tempore laudantium maxime adipisci nisi distinctio, praesentium non accusantium! Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum vitae consectetur, ratione possimus consequatur quidem distinctio, animi ea reiciendis exercitationem ducimus assumenda id hic quaerat nam. Voluptates, sint optio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla non autem sit hic maxime temporibus vero! Tempore ab quam consequatur repudiandae accusantium quaerat beatae explicabo suscipit, doloremque est officiis sint!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque quis, amet iure, quo dignissimos cum eum blanditiis quasi sed nostrum officiis iusto ipsam magni? Et aliquid laborum reprehenderit eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed similique beatae quis, atque ducimus quos exercitationem quibusdam, alias ipsa tempore laudantium maxime adipisci nisi distinctio, praesentium non accusantium! Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum vitae consectetur, ratione possimus consequatur quidem distinctio, animi ea reiciendis exercitationem ducimus assumenda id hic quaerat nam. Voluptates, sint optio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla non autem sit hic maxime temporibus vero! Tempore ab quam consequatur repudiandae accusantium quaerat beatae explicabo suscipit, doloremque est officiis sint!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque quis, amet iure, quo dignissimos cum eum blanditiis quasi sed nostrum officiis iusto ipsam magni? Et aliquid laborum reprehenderit eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed similique beatae quis, atque ducimus quos exercitationem quibusdam, alias ipsa tempore laudantium maxime adipisci nisi distinctio, praesentium non accusantium! Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum vitae consectetur, ratione possimus consequatur quidem distinctio, animi ea reiciendis exercitationem ducimus assumenda id hic quaerat nam. Voluptates, sint optio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla non autem sit hic maxime temporibus vero! Tempore ab quam consequatur repudiandae accusantium quaerat beatae explicabo suscipit, doloremque est officiis sint!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non doloremque quis, amet iure, quo dignissimos cum eum blanditiis quasi sed nostrum officiis iusto ipsam magni? Et aliquid laborum reprehenderit eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sed similique beatae quis, atque ducimus quos exercitationem quibusdam, alias ipsa tempore laudantium maxime adipisci nisi distinctio, praesentium non accusantium! Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eum vitae consectetur, ratione possimus consequatur quidem distinctio, animi ea reiciendis exercitationem ducimus assumenda id hic quaerat nam. Voluptates, sint optio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla non autem sit hic maxime temporibus vero! Tempore ab quam consequatur repudiandae accusantium quaerat beatae explicabo suscipit, doloremque est officiis sint!</p>
 </body>
 </html>
